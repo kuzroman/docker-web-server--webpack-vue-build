@@ -1,0 +1,27 @@
+{
+  "name": "docker-web-server--webpack-vue-build",
+  "version": "1.0.0",
+  "description": "Docker example with Apache, MySql 8.0, PhpMyAdmin and Php",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuzroman/docker-web-server--webpack-vue-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuzroman/docker-web-server--webpack-vue-build/issues"
+  },
+  "homepage": "https://github.com/kuzroman/docker-web-server--webpack-vue-build#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
