@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% block settings %}
+    {% set someParam = 'some' %}
+    <script>
+        window.some = {{ someParam }};
+    </script>
+{% endblock %}
+
+{% block scriptsHeader %}
+    <!-- Vue debugger -->
+    <script src="//localhost:8098"></script>
+{% endblock %}
+
+{% block headTmpl %}
+    {% include './head.twig' %}
+{% endblock %}
+
+<body>
+
+    {% block beforeForm %}
+        <div class="content content-before">
+            <div>1</div>
+        </div>
+    {% endblock %}
+
+    {% block content %}
+
+        some content from common
+
+    {% endblock %}
+
+    {% block afterForm %}
+        <div class="content content-after">
+            <div>1</div>
+        </div>
+    {% endblock %}
+
+</body>
+</html>
