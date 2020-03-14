@@ -2,7 +2,7 @@
 
 ### Backend
 
-Install docker https://download.docker.com/mac/stable/Docker.dmg
+Install docker for macOS https://download.docker.com/mac/stable/Docker.dmg
 
 Docker example with Apache, MySql 8.0, PhpMyAdmin and Php
 
